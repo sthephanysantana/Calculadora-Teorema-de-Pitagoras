@@ -2,16 +2,16 @@
 * {
   position: relative;
 }
- 
+ html{
+  background-image: linear-gradient(to right, #ccd3d7 0%, #63839a 100%);}
 #triangulo {
-  width: 210px;
+  width: 350px;
   display: flex;
   align-self: center;
   margin: auto;
 }
 body {
-  background-color: #c0fdfb;
-  font-family: 'Sarala';
+  font-family: 'Cormorant', serif;
 }
 input::placeholder {
   text-align: center;
@@ -21,9 +21,9 @@ input::placeholder {
 }
 input{
   border-style: none;
-  border-radius: 15px;
+  border-radius: 25px;
   height: 30px;
-  width: 60px;
+  width: 80px;
 }
 #aInput{
   display: flex;
@@ -32,16 +32,16 @@ input{
   text-align: center;
 }
 #oInput{
-  left: -150px;
-  bottom: 100px;
+  left: -220px;
+  bottom: 135px;
   display: flex;
   align-self: center;
   margin: auto;
   text-align: center;
 }
 #hInput{
-  left: 80px;
-  bottom: 160px;
+  left: 130px;
+  bottom: 195px;
   display: flex;
   align-self: center;
   margin: auto;
@@ -58,12 +58,12 @@ input{
 #buttons button{
   border-style: none;
   border-radius: 15px;
-  width: 90px;
-  height: 25px;
+  width: 120px;
+  height: 30px;
   display: flex;
-  align-self: center;
+  align-self:center;
   vertical-align: center;
-  background-color: #b09e99;
+  background-color: #13222a;
   color:#f8f7f2;
   display: table-cell;
 }
@@ -82,6 +82,14 @@ margin-left: 15px;
   bottom: 100px;
 }
 #cabeçalho{
-  color: #b09e99;
+  color: #3d4450;
   text-align: center;
+}
+#paragrafo{
+  font-family: 'Cormorant', serif;
+  font-size: 25px;
+  text-align: center;
+  color: #1a3936;
+  line-height: 30px;
+  margin-top: 60px;
 }
